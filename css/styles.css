@@ -11111,37 +11111,37 @@ body {
   }
 }
 
-.about-section {
+.home-section {
   padding-top: 10rem;
   background:#509abf;
 }
-.about-section p {
+.home-section p {
   margin-bottom: 10rem;
 }
 
-.projects-section {
+.clues-section {
   padding: 10rem 0;
 }
-.projects-section .featured-text {
+.clues-section .featured-text {
   padding: 2rem;
 }
 @media (min-width: 992px) {
-  .projects-section .featured-text {
+  .clues-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
   }
 }
-.projects-section .project-text {
+.clues-section .project-text {
   padding: 3rem;
   font-size: 90%;
 }
 @media (min-width: 992px) {
-  .projects-section .project-text {
+  .clues-section .project-text {
     padding: 5rem;
   }
 }
 
-.signup-section {
+.mailbox-section {
   padding: 10rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/about_page.jpg");
   background-position: center;
@@ -11149,7 +11149,7 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
-.signup-section .form-signup input {
+.mailbox-section .signup-mailbox input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
@@ -11323,41 +11323,20 @@ html, body {
 #cake {
   display: block;
   position: relative;
-  margin: -10em auto 0 auto;
+  margin: auto auto auto auto;
 }
 
 /* ============================================== Candle
 */
 
 .candle {
-  background: #ffffff;
+  background: #fcba03;
   border-radius: 10px;
   position: relative;
-  top: 270px;
-  left: 50%;
-  margin-left: -2.4px;
-  margin-top: 8.33333333px;
+  margin: auto auto auto auto;
   width: 5px;
-  height: 35px;
-  transform: translateY(-300px);
+  height: 45px;
   backface-visibility: hidden;
-  animation: in 500ms 0s ease-out forwards;
-}
-.candle:after,
-.candle:before {
-  background: rgba(255, 0, 0, 0.4);
-  content: "";
-  position: relative;
-  width: 100%;
-  height: 2.22222222px;
-}
-.candle:after {
-  top: 25%;
-  left: 0;
-} 
-.candle:before {
-  top: 25%;
-  left: 0;
 }
 
 /* ============================================== Fire
@@ -11365,11 +11344,11 @@ html, body {
 
 .flame {
   border-radius: 100%;
-  position: relative;
-  top:235;
+  position: absolute;
+  top: -20px;
   left: 50%;
-  margin-left: -2.6px;
   width: 6.66666667px;
+  margin-left: -2.6px;
   height: 18px;
 }
 .flame:nth-child(1) {
